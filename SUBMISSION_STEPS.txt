@@ -1,0 +1,8 @@
+1. Install dependencies: pip install -r requirements.txt
+2. Train all five classifiers: python train_models.py
+3. Run the app: streamlit run app.py
+4. Upload test_data.csv and test all five model options.
+5. Capture your own BITS Virtual Lab screenshot (a Colab/ngrok screenshot is not a BITS Lab screenshot).
+6. Deploy app.py from this GitHub repository using Streamlit Community Cloud.
+7. Add the deployed Streamlit URL to README.md.
+8. Assemble the final PDF in the required order: GitHub URL, live app URL, BITS Lab screenshot, README content.
