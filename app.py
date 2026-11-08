@@ -70,5 +70,3 @@ if uploaded is not None:
         st.caption(f"Evaluated {len(data)} records.")
     except Exception as error:
         st.error(f"Unable to evaluate uploaded file: {error}")
-else:
-    st.warning("Upload test_data.csv from the project folder to view evaluation results.")
